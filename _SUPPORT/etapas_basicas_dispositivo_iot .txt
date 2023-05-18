@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=yrHJ84ePtIw&t=78s
+
+ETAPAS BASICAS SECUENCIA DISPOSITIVO IOT
+
+1) Lectura magnitud (variable de proceso).
+2) Proceso / cálculo / registro / envío.
+3) Consumo externo.
+4) Accionamiento externo.
+
+1) Lectura magnitud:
+	- Digital.
+	- Analógica (directa o mediante conversión, por ejemplo de 4-20 mAh o 0-10 v).
+	- SPI (MOSI, MISO, CS, etc).
+	- I2C (SCL, SDA).
+	- Onewire.
+	- Comunicación serie standard (RX, TX).
+
+2) Proceso / cálculo / registro / envío:
+	- Conversiones necesarias a valores usables, manual mediante fórmula o por librería.
+	- Registro local (opcional) en memoria flash o tarjeta microsd por ejemplo.
+	- Formateo y envío de datos a servidor remoto (MQTT, base de datos, etc).
+
+3) Consumo externo:
+	- Dashboard de tercero.
+	- Cliente personalizado JS.
+
+4) Accionamiento externo:
+	- Dashboard de tercero.
+	- Cliente personalizado JS.

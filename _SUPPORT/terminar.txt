@@ -1,0 +1,8 @@
+18may2023:
+
+- Activar cuenta console.hivemq.cloud.
+- Definir 3 alternativas de dashboard y ctrl (MQTTX).
+- Agregar validación usuario y contador pulsos sensor hall a código.
+- Actualizar dashboard Javascript.
+- Mostrar captura desde InfluxDB.
+- Pasar más imágenes para conectar.
